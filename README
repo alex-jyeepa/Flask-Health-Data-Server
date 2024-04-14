@@ -1,0 +1,24 @@
+Jipa Alexandru Bogdan 333CC
+
+Abordarea generala a temei a fost implementarea thread-urilor pentru a putea
+executa job-uri, dupa aceea implementarea unei metode de POST din routes.py
+pentru a putea creea job-uri, urmata de cea de get_results pentru a putea testa.
+Dupa construirea structurii de baza a programului am implementat toate functiile de POST,
+testand la fiecare pas cu postman. In data_ingestor.py am definit metodele de cautare
+in csv, fiecare folosind dictionare si sortari pentru a returna formatarea dorita.
+Am implementat functia de logging in __init__ si am dat debug pe parcurs si cu aceasta.
+
+Tema a fost utila pentru intelegerea dezvoltarii unei aplicatii web cu python in stil
+orientat pe obiecte. Implementarea nu este ineficienta (cred), dar probabil cautarile
+in csv ar putea fi imbunatatite.
+
+Intregul enunt este implementat. in mytests.py am implementat cate un test pentru
+fiecare POST, unele hardcodate direct in cod, si cele mai lungi cittie din fisiere.
+Singura problema este ca a trebuit sa includ csv-ul si in unittests, nu gaseste fisierul
+altfel desi nu ar trebui sa fie o problema. Sunt si depunctari multe la pylint la fisierul
+de teste, dar e din cauza intrebarilor si raspunsurilor lungi, nu prea am solutie, decat
+sa le scriu in fisiere. Cele mai mari dificultati au fost la intelegerea
+flask-ului si lucrul cu metode tip POST si GET. Am descoperit in aceasta tema cat de usor
+poti formata date cu python :).
+
+git: https://github.com/alex-jyeepa/tema1ASC
