@@ -1,2 +1,3 @@
-# tema1ASC
-tema 1 ASC
+# Flask Health Data Server
+
+Implemented for Computer Systems Architecture course.
